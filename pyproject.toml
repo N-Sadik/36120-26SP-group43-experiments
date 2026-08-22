@@ -1,0 +1,41 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "36120_26sp_group43_experiments"
+version = "0.0.1"
+description = "Build machine learning models capable of predicting whether a U.S. college basketball player will achieve a sustained NBA career using college-level statistics."
+authors = [
+  { name = "Group43" },
+]
+
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    
+]
+dependencies = [
+    "loguru",
+    "mkdocs",
+    "pip",
+    "python-dotenv",
+    "ruff",
+    "tqdm",
+    "typer",
+]
+requires-python = "~=3.12.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["36120_26sp_group43_experiments"]
+include = ["pyproject.toml", "36120_26sp_group43_experiments/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["36120_26sp_group43_experiments"]
+force-sort-within-sections = true
+
