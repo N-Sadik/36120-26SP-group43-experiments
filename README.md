@@ -4,58 +4,25 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-Build machine learning models capable of predicting whether a U.S. college basketball player will achieve a sustained NBA career using college-level statistics.
+# Predicting NBA Career Longevity from College Basketball Statistics
 
-## Project Organization
+## Project Overview
 
-```
-├── LICENSE            <- Open-source license if one is chosen
-├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── docs               <- A default mkdocs project; see www.mkdocs.org for details
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         36120_26sp_group43_experiments and configuration for tools like black
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.cfg          <- Configuration file for flake8
-│
-└── 36120_26sp_group43_experiments   <- Source code for use in this project.
-    │
-    ├── __init__.py             <- Makes 36120_26sp_group43_experiments a Python module
-    │
-    ├── config.py               <- Store useful variables and configuration
-    │
-    ├── dataset.py              <- Scripts to download or generate data
-    │
-    ├── features.py             <- Code to create features for modeling
-    │
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
-    │   └── train.py            <- Code to train models
-    │
-    └── plots.py                <- Code to create visualizations
-```
+This project investigates whether U.S. college basketball player statistics can be used to predict whether a player will achieve a sustained career in the NBA.
 
---------
+The project is part of the UTS 36120 Advanced Machine Learning assessment and focuses on exploratory data analysis, feature engineering, machine learning model development, evaluation, and Kaggle experimentation.
 
+## Objective
+
+The main objective is to build and evaluate machine learning models that predict NBA career longevity using college-level basketball statistics.
+
+The experimentation process includes:
+
+- Exploratory Data Analysis (EDA)
+- Data cleaning and preprocessing
+- Feature engineering
+- Model training
+- Model evaluation
+- Hyperparameter tuning
+- Kaggle submission experimentation
+- Comparison of different machine learning approaches
